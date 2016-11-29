@@ -1,0 +1,645 @@
+/* General */
+
+html {
+    background-color: black;
+}
+
+body {
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* End General */
+
+
+/* Navigation/Header */
+
+#header {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    max-width: 1000px;
+    position: fixed;
+    z-index: 100;
+}
+
+#PACN {
+    padding: 10px 10px;
+    color: white;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+nav {
+    padding: 5px 10px;
+    text-align: right;
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0px 20px;
+    text-decoration: none;
+    color: #577f3f;
+    font-weight: bold;
+}
+
+
+/* End Navigation */
+
+
+/* Banner */
+
+#banner {
+    position: relative;
+    padding-top: 50px;
+    width: 100%;
+}
+
+#banner-pic {
+    position: relative;
+    width: 100%;
+}
+
+#banner-filler {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+}
+
+#kaba-logo {
+    padding-top: 90px;
+    margin: auto;
+}
+
+#banner-filler p {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#banner-filler a {
+    text-decoration: none;
+    color: white;
+    background-color: #577f3f;
+    padding: 5px 30px;
+}
+
+
+/* End Banner */
+
+
+/* Sections*/
+
+.section {
+    padding-top: 50px;
+    width: 100%;
+}
+
+.section h1 {
+    font-size: 46px;
+}
+
+.green-line {
+    width: 100px;
+    height: 4px;
+    background-color: #577f3f;
+    margin: auto;
+}
+
+.section h1 {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.section p {
+    text-align: center;
+}
+
+
+/* End Sections */
+
+
+/* About */
+
+#tri-photo {
+    width: 100%;
+}
+
+#tri-photo div {
+    width: 33%;
+    display: inline-block;
+}
+
+#tri-photo div img {
+    display: block;
+    width: 90%;
+    margin: auto;
+    -moz-box-shadow: -5px -5px #577f3f;
+    -webkit-box-shadow: -5px -5px #577f3f;
+    box-shadow: -5px -5px #577f3f;
+}
+
+
+/* End About */
+
+
+/* Suites */
+
+.suite-container {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.suite-left {
+    margin-left: 3%;
+    margin-right: 1.5%;
+    right: 0;
+}
+
+.suite-right {
+    margin-right: 3%;
+    margin-left: 1.5%;
+    left: 0;
+}
+
+.suite-pic,
+.suite-desc {
+    width: 50%;
+    float: left;
+}
+
+.suite-desc {
+    position: relative;
+}
+
+.suite-img-container {
+    width: 100%;
+    position: absolute;
+}
+
+.suite-right .suite-img-container {
+    bottom: 0px;
+}
+
+.suite-left .suite-img-container {
+    top: 0px;
+}
+
+.suite-left .suite-left-text {
+    position: absolute;
+    bottom: 0;
+}
+
+.suite-left .suite-left-text p {
+    margin-bottom: 0;
+}
+
+.suite-desc p {
+    text-align: left;
+    margin-top: 0px;
+}
+
+.suite-img-container img {
+    width: 46%;
+    float: left;
+}
+
+.suite-img-left {
+    margin-right: 4%;
+}
+
+.suite-img-right {
+    margin-left: 4%;
+}
+
+.suite-pic img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+
+figure {
+    position: relative;
+    margin: 0;
+}
+
+figure img {
+    display: block;
+}
+
+figcaption {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top: 0;
+}
+
+figure p {
+    display: none;
+}
+
+.fig-left figcaption {
+    padding: 10px;
+    left: 0;
+}
+
+.fig-right figcaption {
+    padding: 10px;
+    right: 0;
+}
+
+
+/* End Suites */
+
+
+/* Board */
+
+table {
+    table-layout: fixed;
+    margin-top: 40px;
+    width: 100%;
+}
+
+table tr td {
+    width: 20%;
+    vertical-align: top;
+}
+
+table tr td img {
+    width: 100%;
+}
+
+table tr td p {
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+
+/* End Board */
+
+
+/* Tickets */
+
+#coming-soon p {
+    padding: 4% 5%;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    color: white;
+    font-size: 44px;
+    background-color: #577f3f;
+}
+
+
+/* End Tickets */
+
+
+/* Contact */
+
+#contact {
+    height: 300px;
+}
+
+#contact-left,
+#contact-right {
+    text-align: center;
+    float: left;
+    width: 50%;
+}
+
+#contact h3 {
+    margin-bottom: 10px;
+}
+
+#contact-left p {
+    margin-top: 10px;
+}
+
+#contact-left a {
+    text-decoration: none;
+    color: black;
+}
+
+#contact-right p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.green-line-small {
+    margin: auto;
+    background-color: #577f3f;
+    width: 100px;
+    height: 2px;
+}
+
+
+/* End Contact */
+
+
+/* Footer */
+
+#footer {
+    background-color: #577f3f;
+}
+
+#icon-wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+#footer img {
+    margin: 0px 2%;
+    width: 5%;
+    display: inline;
+}
+
+#footer p {
+    color: white;
+}
+
+#credit {
+    color: white;
+    text-align: center;
+    font-size: 8px;
+}
+
+#credit a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* End Footer */
+
+
+/* Responsiveness */
+
+@media only screen and (max-width: 500px) {
+    p {
+        font-size: 10px;
+    }
+    h1,
+    .section h1 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 12px;
+    }
+    a {
+        font-size: 10px;
+    }
+    figcaption {
+        font-size: 30px;
+    }
+    #header {
+        height: 30px;
+    }
+    #PACN {
+        padding: 5px 5px;
+        font-size: 18px;
+    }
+    nav {
+        margin-top: 0px;
+        padding-top: 3px;
+    }
+    nav a {
+        margin: 0px 3px;
+        font-size: 11px;
+    }
+    #banner {
+        padding-top: 30px;
+    }
+    #kaba-logo {
+        width: 50px;
+    }
+    #banner-filler p {
+        font-size: 26px;
+        margin: 5px 0px;
+    }
+    #tri-photo {
+        text-align: center;
+    }
+    #tri-photo div {
+        width: 100%;
+        display: block;
+    }
+    #tri-photo div img {
+        float: none;
+        margin-top: 20px;
+        width: 70%;
+    }
+    .suite-container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .suite-img-container {
+        display: none;
+    }
+    .suite-left,
+    .suite-right {
+        margin: 0px;
+    }
+    .suite-pic {
+        width: 100%;
+    }
+    .suite-desc {
+        display: none;
+    }
+    figure p {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 660px) {
+    p {
+        font-size: 11px;
+    }
+    h1,
+    .section h1 {
+        font-size: 36px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+    a {
+        font-size: 11px;
+    }
+    figcaption {
+        font-size: 40px;
+    }
+    #header {
+        height: 38px;
+    }
+    #kaba-logo {
+        padding-top: 70px;
+    }
+    #banner {
+        padding-top: 38px;
+    }
+    #banner-filler p {
+        font-size: 34px;
+        margin: 30px 0px;
+    }
+    #banner-filler a {
+        margin-top: 30px;
+    }
+    #PACN {
+        padding: 7px 7px;
+        font-size: 22px;
+    }
+    nav {
+        margin-top: 4px;
+        padding-top: 4px;
+    }
+    nav a {
+        margin: 0px 10px;
+    }
+    #tri-photo {
+        text-align: center;
+    }
+    #tri-photo div {
+        width: 100%;
+        display: block;
+    }
+    #tri-photo div img {
+        float: none;
+        margin-top: 20px;
+        width: 70%;
+    }
+    .suite-container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .suite-img-container {
+        display: none;
+    }
+    .suite-left,
+    .suite-right {
+        margin: 0px;
+    }
+    .suite-pic {
+        width: 100%;
+    }
+    .suite-desc {
+        display: none;
+    }
+    figure p {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 661px) and (max-width: 840px) {
+    p {
+        font-size: 12px;
+    }
+    h1,
+    .section h1 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    a {
+        font-size: 12px;
+    }
+    figcaption {
+        font-size: 32px;
+    }
+    #header {
+        height: 44px;
+    }
+    #banner {
+        padding-top: 44px;
+    }
+    #PACN {
+        padding: 7px 7px;
+        font-size: 26px;
+    }
+    nav {
+        margin-top: 8px;
+        padding-top: 4px;
+    }
+    #tri-photo {
+        text-align: center;
+    }
+    #tri-photo div {
+        width: 100%;
+        display: block;
+    }
+    #tri-photo div img {
+        float: none;
+        margin-top: 20px;
+        width: 50%;
+    }
+    .suite-container {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .suite-img-container {
+        display: none;
+    }
+    .suite-left,
+    .suite-right {
+        margin: 0px;
+    }
+    .suite-pic {
+        width: 100%;
+    }
+    .suite-desc {
+        display: none;
+    }
+    figure p {
+        display: block;
+        font-size: 12px;
+    }
+    /*
+    .suite-left-text p {
+        font-size: 11px;
+    }
+    .suite-desc.suite-right p {
+        font-size: 11px;
+    }
+    .suite-right p {
+        font-size: 11px;
+    }*/
+}
+
+@media only screen and (min-width: 841px) and (max-width: 999px) {
+    p {
+        font-size: 13px;
+    }
+    .section h1 {
+        font-size: 44px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    a {
+        font-size: 13px;
+    }
+    figcaption {
+        font-size: 36px;
+    }
+    .suite-left-text p {
+        font-size: 13px;
+    }
+    .suite-desc.suite-right p {
+        font-size: 13px;
+    }
+    .suite-right p {
+        font-size: 13px;
+    }
+}
+
+
+/* End Responsiveness */
