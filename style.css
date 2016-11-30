@@ -367,6 +367,10 @@ table tr td p {
     color: white;
 }
 
+#footer a {
+	text-decoration: none;
+}
+
 #credit {
     color: white;
     text-align: center;
