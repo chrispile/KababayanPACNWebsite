@@ -384,7 +384,7 @@ table tr td p {
 
 /* Responsiveness */
 
-@media only screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
     p {
         font-size: 10px;
     }
@@ -460,7 +460,7 @@ table tr td p {
     }
 }
 
-@media only screen and (min-width: 501px) and (max-width: 660px) {
+@media screen and (min-width: 501px) and (max-width: 660px) {
     p {
         font-size: 11px;
     }
@@ -538,7 +538,7 @@ table tr td p {
     }
 }
 
-@media only screen and (min-width: 661px) and (max-width: 840px) {
+@media screen and (min-width: 661px) and (max-width: 840px) {
     p {
         font-size: 12px;
     }
@@ -614,7 +614,7 @@ table tr td p {
     }*/
 }
 
-@media only screen and (min-width: 841px) and (max-width: 999px) {
+@media screen and (min-width: 841px) and (max-width: 999px) {
     p {
         font-size: 13px;
     }
